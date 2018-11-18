@@ -9,7 +9,8 @@ namespace Vega_Used_Car_Sale_System.Mapping
         public MappingProfile()
         {
             CreateMap<Make, MakeResource>();
-            CreateMap<Model, ModelResource>();   
+            CreateMap<Model, ModelResource>();  
+            CreateMap<Feature, FeatureResource>(); 
         }
     }
 }
